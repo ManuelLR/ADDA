@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.8)  19 MAY 2015 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.4.8)  19 MAY 2015 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -937,6 +937,11 @@ Overfull \hbox (83.27585pt too wide) detected at line 117
 /10.95 ) = []
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]\OT1/cmr/m/n/10.95 sp=(i++,d.get(i).getDano()*a+nAct,
+ []
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
 
 Overfull \hbox (10.95003pt too wide) in paragraph at lines 117--118
@@ -998,7 +1003,7 @@ ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1
 /cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/
 texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Reinas.pdf (2 pages, 113722 bytes).
+Output written on Reinas.pdf (2 pages, 113862 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
