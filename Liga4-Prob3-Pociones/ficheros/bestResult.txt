@@ -1,0 +1,12 @@
+-+-+-+-+- Mejores resultados obtenidos -+-+-+-+-+-+-
+--No Nigromante:
+Solucion= [P2(x10)<1.0€,1,Otro> x 10, P5(x10)<3.0€,1,Otro> x 2, P8(x11)<3.0€,4,Otro> x 10, P0(x2)<60.0€,24,Otro> x 2]; costeTotal: 166,danoTotal: 100
+
+*Coste: 166
+*Daño:  100
+
+--Nigramante
+Solucion= [P3(x2)<61.0€,24,Nigromante> x 2, P4(x2)<72.0€,15,Nigromante> x 2, P10(x2)<80.0€,15,Nigromante> x 2]; costeTotal: 426,danoTotal: 108
+
+*Coste: 426
+*Daño: 108

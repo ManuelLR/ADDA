@@ -1,0 +1,16 @@
+digraph Pociones {  
+ size="100,100"; 
+    "(2, 46)" [shape=box];
+    "(2, 46),2" [label=2];
+    "(2, 46)" -> "(2, 46),2"[style=bold,arrowhead=dot];
+    "(2, 46),2" -> "(3, -2)"[style=bold,arrowhead=dot];
+    "(3, -2)" [shape=box];
+    "(1, 56)" [shape=box];
+    "(1, 56),10" [label=10];
+    "(1, 56)" -> "(1, 56),10"[style=bold,arrowhead=dot];
+    "(1, 56),10" -> "(2, 46)"[style=bold,arrowhead=dot];
+    "(0, 100)" [shape=box];
+    "(0, 100),11" [label=11];
+    "(0, 100)" -> "(0, 100),11"[style=bold,arrowhead=dot];
+    "(0, 100),11" -> "(1, 56)"[style=bold,arrowhead=dot];
+}
