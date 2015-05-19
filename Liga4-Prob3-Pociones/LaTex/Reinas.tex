@@ -1,0 +1,122 @@
+% !TeX spellcheck = es_ES
+\documentclass{scrartcl}
+%\documentclass{book}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{lscape}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage[hidelinks,colorlinks=true, linkcolor=black]{hyperref} %hyperref para hacer los links del indice y usar \url{URL} y \href{URL}{text}y hidelinks para que no se rodeen con una caja de color los enlaces. Más información en: http://en.wikibooks.org/wiki/LaTeX/Hyperlinks
+
+
+
+
+\pagestyle{fancy}
+%\usepackage{tabulary}
+%\usepackage{/home/manolito/IISSI/pruebaLaTex/comfortaa/tex/latex/comfortaa/comfortaa}
+
+%\lfoot[\thepage]{\bfseries{\includegraphics[width=0.020\textwidth]{imagenes/logo.png} PhotoLoad}}
+\cfoot[\thepage]{}
+\rfoot[\thepage]{\thepage}
+%\lfoot[c1]{GECH}
+%\lfoot[e1]{GECH}
+\lhead[\thepage]{}
+\rhead[\thepage]{}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.2pt}
+\hyphenation{se-ma-nal per-so-na-les ope-ra-tivo mo-ni-tor mues-tra pide correc-ta-men-te}
+
+
+
+%\renewcommand{\baselinestretch}{1.5} %interlineado
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+	\vspace*{-1in}
+	\vspace*{2in}
+	\begin{Huge}
+		%si lo quieres poner mas grande Huge, huge, uno mas pequeño LARGE, dos más pequeños Large
+		\textbf{ADDA} \\
+	\end{Huge}
+\end{center}
+\end{titlepage}
+\section{Introducción}
+\begin{tabularx}{\textwidth}{|r|X|}
+	\hline
+	\multicolumn{2}{|c|}{\textbf{Problema de Pociones}} \\
+	\hline
+	Técnica & \textbf{Programación Dinámica} \\
+	\hline
+	Tamaño & \textbf{despensa.size() - i} 
+	\\
+	\hline
+	Propiedades Compartidas & \begin{enumerate}[{\textbf{\textperiodcentered}}]
+		\item List\textless Pocion\textgreater   \textbf{despensa}: Guarda todas las pociones
+		\item Integer \textbf{nIni}: nivel inicial oponente
+		\item TipoPersonaje	\textbf{tp}: dirá si es nigromante o no
+		\item ¿¿Necesaria?? List\textless Integer\textgreater  \textbf{multiplicidades}: Guarda todas las multiplicidades de las pociones
+	\end{enumerate}
+	\\
+	\hline
+	Propiedades Individuales & 
+	\begin{enumerate}[\textbf{\textperiodcentered}]
+		\item Integer \textbf{i} en [0, despensa.size]: posición actual de la lista
+		\item Integer \textbf{nAct}: nivel actual
+		\item Integer \textbf{cAcu}: coste acumulado
+	\end{enumerate} \\
+	\hline
+	Solución & \textbf{s = (as, ct, dt)} ; siendo:
+	
+	\textbf{\textperiodcentered} as: alternativas seleccionadas en el paso
+	
+	\textbf{\textperiodcentered} ct: coste total
+	
+	\textbf{\textperiodcentered} dt: daño total\\
+	\hline
+	Objetivo & Encontrar \textgravedbl s\textacutedbl tal que \textgravedbl dt \textgreater =  nIni\textacutedbl y \textgravedbl ct\textacutedbl  tenga el menor valor posible\\
+	\hline
+	Solución Parcial & \textbf{Sp = (a, ct)} \\
+	\hline
+	Alternativas & A\textsubscript{cAcu, i, despensa} = \{a:k...0\};
+	
+	k = min(can, {nAct}/{can});
+	
+	can = despensa.get(i).getCant();
+	
+	Falta filtro de si es nigromante o no\\
+	\hline
+	Instanciación & ProbPociones(0, 0, 0) \\
+	\hline
+	Instanciación & ProbPociones(?¿, ?¿, ?¿) \\
+	\hline
+	Problema Generalizado & \[ ppg(p) =
+	\begin{cases}
+	(p[1], )       & \quad \text{si} n \text{ is even}\\
+	()			& \quad \text{i \textgreater  d.length() or nAct \textgreater= 0}\\
+	cA_{a\epsilon A_{co, i, d}}  (c(jejeje)) & \quad \text{ecoc}\\
+	\end{cases}
+	\] 
+	co=cAcu; d=despensa;
+	
+	p=(i, nAct, costeAcumulado)
+	
+	Sp=(?¿,?¿)\\
+	\hline
+	?¿ & ?¿ \\
+	\hline
+	sA & ?¿ \\
+	\hline
+	Solución reconstruida & ?¿ \\
+	\hline
+	
+\end{tabularx}
+\end{document}
