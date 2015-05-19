@@ -27,8 +27,6 @@ public class ProblemaPocionesPD implements
 
 	public List<Integer> multiplicidadesMaximas;
 
-	// public List<Pocion> pociones; //quitar
-
 	public static ProblemaPocionesPD create(String fichero,
 			Integer nivelInicial, TipoPersonaje tipo) {
 
@@ -37,24 +35,15 @@ public class ProblemaPocionesPD implements
 		List<Integer> multiplicidades = ProblemaPociones.getPociones().stream()
 				.mapToInt(x -> x.getCantidad()).boxed()
 				.collect(Collectors.toList());
-		Collections.reverse(multiplicidades);
+		// Collections.reverse(multiplicidades);
 
 		ProblemaPociones.setNivelInicialOponente(nivelInicial);
 
-//		System.out.println("NivelInicial que se guarda: "
-//				+ ProblemaPociones.getNivelInicialOponente());
 		ProblemaPociones.setTipoOponente(tipo);
 		ProblemaPocionesPD.problemaInicial = new ProblemaPocionesPD(0,
 				ProblemaPociones.getNivelInicialOponente(), 0, multiplicidades);
 		return ProblemaPocionesPD.problemaInicial;
 	}
-
-	/*
-	 * public static ProblemaPocionesPD create(int index, int nivelActual,
-	 * Integer costeAcumulado, List<Integer> multiplicidades, List<Pocion>
-	 * pociones) { return new ProblemaPocionesPD(index, nivelActual,
-	 * costeAcumulado, multiplicidades, pociones); }
-	 */
 
 	private ProblemaPocionesPD(int index, int nivelActual,
 			Integer costeAcumulado, List<Integer> multiplicidades) {
@@ -73,8 +62,7 @@ public class ProblemaPocionesPD implements
 	@Override
 	public int size() {
 		// TODO Auto-generated method stub
-		//return 1;
-		return ProblemaPociones.getPociones().size()-index+1;
+		return ProblemaPociones.getPociones().size() - index + 1;
 	}
 
 	@Override
@@ -90,8 +78,7 @@ public class ProblemaPocionesPD implements
 		int dano = ProblemaPociones.getPociones().get(index).getDano();
 		int num = this.nivelActual / dano;
 		num = Math.min(num, ProblemaPociones.getPociones().get(index)
-				.getCantidad());// es lo mismo que cogerlo de la lista
-								// multiplicidad
+				.getCantidad());
 		Double valor = (double) num
 				* ProblemaPociones.getPociones().get(index).getCoste();
 		return Sp.create(num, valor);
@@ -104,7 +91,6 @@ public class ProblemaPocionesPD implements
 		Sp<Integer, Object> r = ls.stream().filter(x -> x.propiedad != null)
 				.max(Comparator.naturalOrder()).orElse(null);
 		objetivo = r != null ? r.propiedad : Double.MIN_VALUE;
-		// objetivo = r != null ? r.propiedad : Double.MAX_VALUE;
 		System.out.println(r.toString());
 		return r;
 	}
@@ -128,8 +114,8 @@ public class ProblemaPocionesPD implements
 			List<Sp<Integer, Object>> ls) {
 		// TODO Auto-generated method stub
 		Sp<Integer, Object> res = ls.get(0); // Solo pasa una solución
-		Double valorNuevo = res.propiedad
-				+ a*ProblemaPociones.getPociones().get(index).getCoste();//Antes no multiplicaba por "a"
+		Double valorNuevo = res.propiedad + a
+				* ProblemaPociones.getPociones().get(index).getCoste();
 		return Sp.create(a, valorNuevo);
 	}
 
@@ -141,12 +127,15 @@ public class ProblemaPocionesPD implements
 				TipoPersonaje.Nigromante) && ProblemaPociones.getPociones()
 				.get(index).getNigromante().equals(TipoPersonaje.Otro))) {
 			ls = IntStream
-					.rangeClosed(0, ProblemaPociones.getPociones().get(this.index).getCantidad())
+					.rangeClosed(
+							0,
+							ProblemaPociones.getPociones().get(this.index)
+									.getCantidad())
 					.filter(x -> this.nivelActual
 							- (x - 1)
 							* ProblemaPociones.getPociones().get(this.index)
-									.getDano() > 0)
-					.boxed().collect(Collectors.toList());
+									.getDano() > 0).boxed()
+					.collect(Collectors.toList());
 			Collections.reverse(ls);
 		} else {
 			ls.add(0);
@@ -158,7 +147,6 @@ public class ProblemaPocionesPD implements
 	@Override
 	public int getNumeroSubProblemas(Integer a) {
 		// TODO Auto-generated method stub
-
 		return 1;
 	}
 
@@ -193,8 +181,11 @@ public class ProblemaPocionesPD implements
 					|| nivelActual <= 0) {
 				break;
 			}
-			nu = Math.min(ProblemaPociones.getPociones().get(ind).getCantidad(), nivelActual
-					/ ProblemaPociones.getPociones().get(ind).getDano());
+			nu = Math
+					.min(ProblemaPociones.getPociones().get(ind).getCantidad(),
+							nivelActual
+									/ ProblemaPociones.getPociones().get(ind)
+											.getDano());
 		}
 		return (int) Math.ceil(r);
 	}
@@ -215,7 +206,8 @@ public class ProblemaPocionesPD implements
 		} else if (problemaInicial.equals(this)) {
 			r = objetivo;
 		} else {
-			r = Double.MAX_VALUE;
+			r = Double.MIN_VALUE;// Con MAX_VALUE pasa por alternativas
+									// innecesarias
 		}
 		return r;
 	}

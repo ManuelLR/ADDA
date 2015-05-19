@@ -13,7 +13,7 @@ public class Test {
 	public static void main(String[] args) {
 
 		ProblemaPocionesPD p = ProblemaPocionesPD.create(
-				"ficheros/despensa.txt", 100, TipoPersonaje.Nigromante);
+				"ficheros/despensa.txt", 100, TipoPersonaje.Otro);
 		AlgoritmoPD.isRandomize = false;
 		System.out.println("Datos introducidos: ");
 		System.out.println(ProblemaPociones.getPociones() + "\n" + p.multiplicidadesMaximas);
@@ -26,9 +26,6 @@ public class Test {
 		a.showAllGraph("ficheros/pociones.gv", "Pociones", p);
 		System.out.println("Solucion= "
 				+ SolucionPociones.create(a.getSolucion(p)));
-//		System.out.println("Máximos: ");
-//		System.out.println("Nigromante: coste-> 326  || dano-> 102");
-//		System.out.println("NoNigroman: coste-> ?¿   || dano-> ?¿ ");
 		
 		System.out.println("Conseguidos: ");
 		System.out.println("Nigromante				: coste-> 426  || dano-> 108");
