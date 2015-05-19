@@ -73,7 +73,8 @@ public class ProblemaPocionesPD implements
 	@Override
 	public int size() {
 		// TODO Auto-generated method stub
-		return 1;
+		//return 1;
+		return ProblemaPociones.getPociones().size()-index+1;
 	}
 
 	@Override
