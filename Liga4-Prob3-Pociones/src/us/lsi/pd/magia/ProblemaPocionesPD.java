@@ -129,7 +129,7 @@ public class ProblemaPocionesPD implements
 		// TODO Auto-generated method stub
 		Sp<Integer, Object> res = ls.get(0); // Solo pasa una solución
 		Double valorNuevo = res.propiedad
-				+ ProblemaPociones.getPociones().get(index).getCoste();
+				+ a*ProblemaPociones.getPociones().get(index).getCoste();//Antes no multiplicaba por "a"
 		return Sp.create(a, valorNuevo);
 	}
 
@@ -215,7 +215,7 @@ public class ProblemaPocionesPD implements
 		} else if (problemaInicial.equals(this)) {
 			r = objetivo;
 		} else {
-			r = Double.MIN_VALUE;
+			r = Double.MAX_VALUE;
 		}
 		return r;
 	}
