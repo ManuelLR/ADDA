@@ -16,7 +16,7 @@ public class Test {
 				"ficheros/despensa.txt", 100, TipoPersonaje.Otro);
 		AlgoritmoPD.isRandomize = false;
 		System.out.println("Datos introducidos: ");
-		System.out.println(ProblemaPociones.getPociones() + "\n" + p.multiplicidadesMaximas);
+//		System.out.println(ProblemaPociones.getPociones() + "\n" + p.multiplicidadesMaximas);
 		System.out.println("Problema Inicial =" + p);
 		AlgoritmoPD<Multiset<Pocion>, Integer, Object> a = Algoritmos
 				.createPD(p);

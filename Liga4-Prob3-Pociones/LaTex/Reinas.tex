@@ -63,7 +63,6 @@
 		\item List\textless Pocion\textgreater   \textbf{despensa}: Guarda todas las pociones
 		\item Integer \textbf{nIni}: nivel inicial oponente
 		\item TipoPersonaje	\textbf{tp}: dirá si es nigromante o no
-		\item ¿¿Necesaria?? List\textless Integer\textgreater  \textbf{multiplicidades}: Guarda todas las multiplicidades de las pociones
 	\end{enumerate}
 	\\
 	\hline
@@ -76,7 +75,7 @@
 	\hline
 	Solución & \textbf{s = (as, ct, dt)} ; siendo:
 	
-	\textbf{\textperiodcentered} as: alternativas seleccionadas en el paso
+	\textbf{\textperiodcentered} as: MultiSet de alternativas seleccionadas en el paso
 	
 	\textbf{\textperiodcentered} ct: coste total
 	
@@ -94,26 +93,23 @@
 	
 	Falta filtro de si es nigromante o no\\
 	\hline
-	Instanciación & ProbPociones(0, 0, 0) \\
+	Instanciación & pp(despensa, nAct, tipo) = ppg(despensa, nIni, tipo, 0, nIni,0) \\
 	\hline
-	Instanciación & ProbPociones(?¿, ?¿, ?¿) \\
-	\hline
-	Problema Generalizado & \[ ppg(p) =
+	Problema Generalizado & \[ ppg(X, p) =
 	\begin{cases}
-	(p[1], )       & \quad \text{si} n \text{ is even}\\
-	()			& \quad \text{i \textgreater  d.length() or nAct \textgreater= 0}\\
-	cA_{a\epsilon A_{co, i, d}}  (c(jejeje)) & \quad \text{ecoc}\\
+	(null, 0)			& \quad \text{i \textgreater  d.length() or nAct \textless= 0}\\
+	cA_{a\epsilon A_{co, i, d}}  (c(X, a, ppg(sp))) & \quad \text{ecoc}\\
 	\end{cases}
 	\] 
 	co=cAcu; d=despensa;
 	
-	p=(i, nAct, costeAcumulado)
+	p=(i, nAct, cAcu)
 	
-	Sp=(?¿,?¿)\\
+	X=(despensa, nIni, tipo)
+	
+	sp=(variaciones de p)\\
 	\hline
-	?¿ & ?¿ \\
-	\hline
-	sA & ?¿ \\
+	sA & (X, a)=(a, cAcu+pociones.get(i).getCoste()*a) \\
 	\hline
 	Solución reconstruida & ?¿ \\
 	\hline

@@ -25,32 +25,32 @@ public class ProblemaPocionesPD implements
 	private Integer nivelActual;
 	private Integer costeAcumulado;
 
-	public List<Integer> multiplicidadesMaximas;
+	//public List<Integer> multiplicidadesMaximas;
 
 	public static ProblemaPocionesPD create(String fichero,
 			Integer nivelInicial, TipoPersonaje tipo) {
 
 		ProblemaPociones.leeObjetosDisponibles(fichero);
 
-		List<Integer> multiplicidades = ProblemaPociones.getPociones().stream()
-				.mapToInt(x -> x.getCantidad()).boxed()
-				.collect(Collectors.toList());
+//		List<Integer> multiplicidades = ProblemaPociones.getPociones().stream()
+//				.mapToInt(x -> x.getCantidad()).boxed()
+//				.collect(Collectors.toList());
 		// Collections.reverse(multiplicidades);
 
 		ProblemaPociones.setNivelInicialOponente(nivelInicial);
 
 		ProblemaPociones.setTipoOponente(tipo);
 		ProblemaPocionesPD.problemaInicial = new ProblemaPocionesPD(0,
-				ProblemaPociones.getNivelInicialOponente(), 0, multiplicidades);
+				ProblemaPociones.getNivelInicialOponente(), 0);//, multiplicidades);
 		return ProblemaPocionesPD.problemaInicial;
 	}
 
 	private ProblemaPocionesPD(int index, int nivelActual,
-			Integer costeAcumulado, List<Integer> multiplicidades) {
+			Integer costeAcumulado){//, List<Integer> multiplicidades) {
 		this.index = index;
 		this.nivelActual = nivelActual;
 		this.costeAcumulado = costeAcumulado;
-		this.multiplicidadesMaximas = multiplicidades;
+//		this.multiplicidadesMaximas = multiplicidades;
 	}
 
 	@Override
@@ -106,7 +106,7 @@ public class ProblemaPocionesPD implements
 		Double costeAcum = ProblemaPociones.getPociones().get(index).getCoste()
 				* a + this.costeAcumulado;
 		return new ProblemaPocionesPD(index + 1, danoAcum,
-				costeAcum.intValue(), multiplicidadesMaximas);
+				costeAcum.intValue());//, multiplicidadesMaximas);
 	}
 
 	@Override
@@ -127,9 +127,7 @@ public class ProblemaPocionesPD implements
 				TipoPersonaje.Nigromante) && ProblemaPociones.getPociones()
 				.get(index).getNigromante().equals(TipoPersonaje.Otro))) {
 			ls = IntStream
-					.rangeClosed(
-							0,
-							ProblemaPociones.getPociones().get(this.index)
+					.rangeClosed(0, ProblemaPociones.getPociones().get(this.index)
 									.getCantidad())
 					.filter(x -> this.nivelActual
 							- (x - 1)
