@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="600" viewBox="0 0 72 2060" width="800"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:12">
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="64" x="4" y="436"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="458">(3, 100)</text>
+        <ellipse cx="36" cy="526" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="530">2</text>
+        <path d="M36 472C36 481 36 491 36 500" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="504" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="56" x="8" y="580"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="602">(4, 52)</text>
+        <path d="M36 544C36 553 36 563 36 572" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="576" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="670" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="674">0</text>
+        <path d="M36 616C36 625 36 635 36 644" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="648" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="56" x="8" y="724"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="746">(5, 52)</text>
+        <path d="M36 688C36 697 36 707 36 716" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="720" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="814" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="818">0</text>
+        <path d="M36 760C36 769 36 779 36 788" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="792" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="56" x="8" y="868"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="890">(6, 52)</text>
+        <path d="M36 832C36 841 36 851 36 860" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="864" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="958" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="962">0</text>
+        <path d="M36 904C36 913 36 923 36 932" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="936" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="56" x="8" y="1012"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1034">(7, 52)</text>
+        <path d="M36 976C36 985 36 995 36 1004" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1008" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="1102" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1106">0</text>
+        <path d="M36 1048C36 1057 36 1067 36 1076"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1080" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="56" x="8" y="1156"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1178">(8, 52)</text>
+        <path d="M36 1120C36 1129 36 1139 36 1148"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1152" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="1246" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1250">0</text>
+        <path d="M36 1192C36 1201 36 1211 36 1220"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1224" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="64" x="4" y="1444"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1466">(10, 22)</text>
+        <ellipse cx="36" cy="1534" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1538">0</text>
+        <path d="M36 1480C36 1489 36 1499 36 1508"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1512" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="64" x="4" y="1588"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1610">(11, 22)</text>
+        <path d="M36 1552C36 1561 36 1571 36 1580"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1584" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="1678" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1682">0</text>
+        <path d="M36 1624C36 1633 36 1643 36 1652"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1656" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="56" x="8" y="1300"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1322">(9, 52)</text>
+        <path d="M36 1264C36 1273 36 1283 36 1292"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1296" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="1390" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1394">2</text>
+        <path d="M36 1336C36 1345 36 1355 36 1364"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1368" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="64" x="4" y="1732"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1754">(12, 22)</text>
+        <path d="M36 1696C36 1705 36 1715 36 1724"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1728" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="1822" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1826">0</text>
+        <path d="M36 1768C36 1777 36 1787 36 1796"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1800" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <path d="M36 1408C36 1417 36 1427 36 1436"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1440" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="62" x="5" y="2020"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="2042">(14, -8)</text>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="64" x="4" y="1876"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1898">(13, 22)</text>
+        <path d="M36 1840C36 1849 36 1859 36 1868"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1872" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="1966" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="1970">2</text>
+        <path d="M36 1912C36 1921 36 1931 36 1940"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="1944" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <path d="M36 1984C36 1993 36 2003 36 2012"
+            stroke-linecap="square" stroke-miterlimit="10.0"
+            stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="2016" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="64" x="4" y="4"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="26">(0, 100)</text>
+        <ellipse cx="36" cy="94" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="98">0</text>
+        <path d="M36 40C36 49 36 59 36 68" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="72" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="64" x="4" y="148"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="170">(1, 100)</text>
+        <path d="M36 112C36 121 36 131 36 140" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="144" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="238" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="242">0</text>
+        <path d="M36 184C36 193 36 203 36 212" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="216" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <rect height="36"
+            style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"
+            width="64" x="4" y="292"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="314">(2, 100)</text>
+        <path d="M36 256C36 265 36 275 36 284" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="288" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <ellipse cx="36" cy="382" rx="27" ry="18" style="fill:none;stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <text
+            style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:14;fill:rgb(0,0,0)"
+            text-anchor="middle" x="36" y="386">0</text>
+        <path d="M36 328C36 337 36 347 36 356" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="360" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+        <path d="M36 400C36 409 36 419 36 428" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:none;stroke:rgb(0,0,0)"/>
+        <ellipse cx="36" cy="432" rx="4" ry="4" stroke-linecap="square"
+            stroke-miterlimit="10.0" stroke-width="2.0" style="fill:rgb(0,0,0);stroke:rgb(0,0,0);fill-opacity:1.0"/>
+    </g>
+</svg>
+<!-- Generated by ZVTM (Zoomable Visual Transformation Machine) v0.9.8 http://zvtm.sourceforge.net-->

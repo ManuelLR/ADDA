@@ -13,7 +13,7 @@ public class Test {
 	public static void main(String[] args) {
 
 		ProblemaPocionesPD p = ProblemaPocionesPD.create(
-				"ficheros/despensa.txt", 100, TipoPersonaje.Otro);
+				"ficheros/despensa.txt", 100, TipoPersonaje.Nigromante);
 		AlgoritmoPD.isRandomize = false;
 		System.out.println("Datos introducidos: ");
 //		System.out.println(ProblemaPociones.getPociones() + "\n" + p.multiplicidadesMaximas);

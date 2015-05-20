@@ -39,17 +39,16 @@
 %\renewcommand{\baselinestretch}{1.5} %interlineado
 
 \begin{document}
-\begin{titlepage}
 \begin{center}
-	\vspace*{-1in}
-	\vspace*{2in}
 	\begin{Huge}
 		%si lo quieres poner mas grande Huge, huge, uno mas pequeño LARGE, dos más pequeños Large
-		\textbf{ADDA} \\
+		\textbf{Liga 4 - Problema Pociones} \\
 	\end{Huge}
+	\begin{LARGE}
+		Manuel López Ruiz
+	\end{LARGE}
 \end{center}
-\end{titlepage}
-\section{Introducción}
+\section{Ficha}
 \begin{tabularx}{\textwidth}{|r|X|}
 	\hline
 	\multicolumn{2}{|c|}{\textbf{Problema de Pociones}} \\
@@ -97,34 +96,36 @@
 	\hline
 	Instanciación & pp(despensa, nAct, tipo) = ppg(despensa, nIni, tipo, 0, nIni,0) \\
 	\hline
-	Problema Generalizado & \[ ppg(X, p) =
+	\multicolumn{2}{|c|}{Problema Generalizado}\end{tabularx} \[ ppg(X, p) =
 	\begin{cases}
 	(null, 0)			& \quad \text{i \textgreater  d.length() or nAct \textless= 0}\\
 	cA_{a\epsilon A_{co, i, d}}  (c(X, a, ppg(sp))) & \quad \text{ecoc}\\
 	\end{cases}
 	\] 
-	co=cAcu; d=despensa;
+	\begin{tabularx}{\textwidth}{|r|X|}
+	 & co=cAcu; d=despensa;
+	 	
 	
 	p=(i, nAct, cAcu)
 	
 	X=(despensa, nIni, tipo)
 	
-	sp=(i++, d.get(i).getDano() * a + nAct, d.get(i).getCoste() * a)\\
+	sp=(i++, despensa.get(i).getDano() * a + nAct, despensa.get(i).getCoste() * a)\\
 	\hline
 	Combina (c) & c(p,a,(\textquotesingle a,n1),(\textquotesingle a, n2))=(a, n1+n2+fi*fa*c-1)\\
 	\hline
 	selecciona Alternativa (sA) & sA(X, a)=(a, cAcu+pociones.get(i).getCoste()*a) \\
 	\hline
 
-	Solución reconstruida & \[ rc(K, m) =
+		\multicolumn{2}{|c|}{Solución reconstruida} \end{tabularx}
+\[ rc(K, m) =
 	\begin{cases}
 	\bot			& \quad m_{a}(K)=\bot \\
 	\varnothing + (d.get(0), m_{a}(K) & \quad \text{caso base}\\
 	rc(K_{1}^{m_{a} (K)}, m) + (d.get(j), m_{a}(K) & \quad \text{caso recursivo}\\
 	\end{cases}
-	\]\\
+	\]
 
-	\hline
 	
-\end{tabularx}
+
 \end{document}
