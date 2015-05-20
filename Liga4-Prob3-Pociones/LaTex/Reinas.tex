@@ -85,13 +85,15 @@
 	\hline
 	Solución Parcial & \textbf{Sp = (a, ct)} \\
 	\hline
-	Alternativas & A\textsubscript{cAcu, i, despensa} = \{a:k...0\};
+	Alternativas & Si \textgravedbl g\textacutedbl: A\textsubscript{cAcu, i, despensa} = \{0\};
+	
+	Si \textgravedbl !g\textacutedbl: A\textsubscript{cAcu, i, despensa} = \{a:k...0\};
+	
+	g =	despensa.get(i).getTipo == \textgravedbl Otro\textacutedbl\: \&\& tp == \textgravedbl Nigromante\textacutedbl
 	
 	k = min(can, {nAct}/{can});
 	
-	can = despensa.get(i).getCant();
-	
-	Falta filtro de si es nigromante o no\\
+	can = despensa.get(i).getCant();\\
 	\hline
 	Instanciación & pp(despensa, nAct, tipo) = ppg(despensa, nIni, tipo, 0, nIni,0) \\
 	\hline
@@ -109,9 +111,19 @@
 	
 	sp=(i++, d.get(i).getDano() * a + nAct, d.get(i).getCoste() * a)\\
 	\hline
-	sA & (X, a)=(a, cAcu+pociones.get(i).getCoste()*a) \\
+	Combina (c) & c(p,a,(\textquotesingle a,n1),(\textquotesingle a, n2))=(a, n1+n2+fi*fa*c-1)\\
 	\hline
-	Solución reconstruida & ?¿ \\
+	selecciona Alternativa (sA) & sA(X, a)=(a, cAcu+pociones.get(i).getCoste()*a) \\
+	\hline
+
+	Solución reconstruida & \[ rc(K, m) =
+	\begin{cases}
+	\bot			& \quad m_{a}(K)=\bot \\
+	\varnothing + (d.get(0), m_{a}(K) & \quad \text{caso base}\\
+	rc(K_{1}^{m_{a} (K)}, m) + (d.get(j), m_{a}(K) & \quad \text{caso recursivo}\\
+	\end{cases}
+	\]\\
+
 	\hline
 	
 \end{tabularx}
